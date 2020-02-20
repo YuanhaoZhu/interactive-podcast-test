@@ -1,0 +1,203 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+    margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+    /* Colors are in hexadecimal: http://www.colorpicker.com/ */
+    color: #CC00AA;
+}
+
+
+#backbutton { 
+margin: 0px 15px;
+    position: absolute;
+    font-family: Roboto;
+    
+}
+
+
+body {
+    margin-top: 6%;
+}
+
+.coursePage {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.jumbotron {
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: white;
+}
+
+.jumbotron:after {
+    content:"";
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.jumbotron h1 {
+    font-size: xx-large;
+}
+
+.class a {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(70, 70, 70, 0.26);
+}
+
+#course1 {
+}
+
+#course_title1 {
+    float: left;
+}
+
+#course_title2 {
+    float: left;
+    margin-right: 30%;
+}
+
+#course_subtitle1 {
+    padding-top: 20%;
+}
+
+#course_subtitle2 {
+    margin-top: 15%;
+    font-weight: 700;
+    float: left;
+    text-align: left
+}
+
+.title {
+    font-weight: bold;
+    width: 100%;
+    font-size: 95%;
+}
+
+.subtitle {
+    margin-left: 3.5px;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.video {
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.videoPreview {
+    width: 45%;
+    border: #cfcfcf 1.25px solid;
+    border-radius: 6px;
+}
+
+.videoDescription p{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.video {
+    width: 45em
+}
+
+.podcastVideo {
+    width: 100%;
+}
+
+.weeks {
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.lectures {
+    margin-left: 10%;
+    line-height: 2;
+}
+
+.inputBox {
+    width: 85%;
+    padding-left: 2.5%;
+    padding-top: 1.2%;
+}
+
+.submit {
+    width: 12%;
+    border:aliceblue;
+    height: 2.5em;
+    border-radius:6px;
+    margin-top: 1%;
+}
+
+.input {
+    height: 3em;
+    border: #cfcfcf solid 1.5px;
+    border-radius:6px;
+}
+
+.note {
+    font-weight: bold;
+    float: left;
+    width: 90%;
+}
+
+#notesdiv {
+    line-height: 2.3;
+}
+
+#content {
+    float: left;
+}
+
+#timestamp {
+    float: right;
+    width: 12%;
+}
+
+#noteTitle {
+    margin-top: 28px;
+}
+
+.info {
+    font-size: 70%;
+}
+
+#searchBar {
+    width: 90%;
+    font-style: italic;
+    border: none;
+}
+
+#search {
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    margin-bottom: 5%;
+    height: 3em;
+    padding-top:0.5em;
+    padding-left: 1em;
+    box-shadow: 0px 5px 10px rgba(70, 70, 70, 0.26);
+    vertical-align:baseline;
+}
+
+.deleteNote {
+    float: right;
+    padding-right: 0.7em;
+}
+
+.recently_viewed {
+    margin-top: 40%;
+}
